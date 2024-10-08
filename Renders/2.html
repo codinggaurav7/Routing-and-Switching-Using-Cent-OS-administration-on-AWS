@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routing and Switching Network - Configuration</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+    <header style="text-align: center; padding: 20px; background-color: #333; color: white;">
+        <h1>Routing and Switching Configuration</h1>
+    </header>
+
+    <section style="padding: 20px; background-color: white; margin-bottom: 20px; border-radius: 8px;">
+        <h2 style="color: #333;">Core AWS Services</h2>
+        <h3 style="color: #555;">Amazon VPC</h3>
+        <ul style="line-height: 1.6;">
+            <li>Public Subnets: Load balancers, NAT gateways, and services that need internet access.</li>
+            <li>Private Subnets: Application servers and databases that shouldn’t be directly accessible from the internet.</li>
+        </ul>
+
+        <h3 style="color: #555;">Elastic IPs</h3>
+        <p>Use Elastic IPs for static public IP addresses.</p>
+
+        <h3 style="color: #555;">Route Tables</h3>
+        <p>Configure route tables to manage traffic between subnets and the internet.</p>
+    </section>
+
+    <section style="padding: 20px; background-color: white; border-radius: 8px;">
+        <h2 style="color: #333;">Routing and Switching Setup</h2>
+        <h3 style="color: #555;">AWS Transit Gateway</h3>
+        <p>Use AWS Transit Gateway for centralized routing between multiple VPCs and on-premises networks.</p>
+
+        <h3 style="color: #555;">VPN Gateway</h3>
+        <p>Set up VPN Gateway for secure on-premises connections.</p>
+
+        <h3 style="color: #555;">Route Tables</h3>
+        <p>Configure route tables to direct traffic between subnets and the internet, using NAT gateways as needed.</p>
+    </section>
+</body>
+</html>
+

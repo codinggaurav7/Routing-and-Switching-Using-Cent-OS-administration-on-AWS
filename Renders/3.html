@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routing and Switching Network - Server Config & Monitoring</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+    <header style="text-align: center; padding: 20px; background-color: #333; color: white;">
+        <h1>CentOS Server Configuration</h1>
+    </header>
+
+    <section style="padding: 20px; background-color: white; margin-bottom: 20px; border-radius: 8px;">
+        <h2 style="color: #333;">EC2 Instances</h2>
+        <p style="line-height: 1.6;">Deploy CentOS instances in private subnets for network administration tasks.</p>
+
+        <h2 style="color: #333;">Network Configuration</h2>
+        <ul style="line-height: 1.6;">
+            <li>Use <code>ifconfig</code> or <code>ip</code> to configure network interfaces.</li>
+            <li>Edit <code>/etc/sysconfig/network-scripts/</code> for persistent configurations.</li>
+        </ul>
+
+        <h2 style="color: #333;">Firewall Configuration</h2>
+        <p>Configure firewalld or iptables to manage inbound and outbound traffic.</p>
+    </section>
+
+    <section style="padding: 20px; background-color: white; border-radius: 8px;">
+        <h2 style="color: #333;">Monitoring and Maintenance</h2>
+        <h3 style="color: #555;">AWS CloudWatch</h3>
+        <p>Monitor network traffic and instance performance using AWS CloudWatch.</p>
+
+        <h3 style="color: #555;">AWS Systems Manager</h3>
+        <p>Use AWS Systems Manager to centrally manage and automate updates and patch management for CentOS servers.</p>
+
+        <h3 style="color: #555;">Logging</h3>
+        <p>Implement CloudTrail and VPC Flow Logs to track API calls and network traffic for security.</p>
+    </section>
+</body>
+</html>
